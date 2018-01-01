@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Xilinx ISE iMPACT
+Comment=Xilinx FPGA Configuration Tool
+Exec=/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/impact
+Terminal=false
+Type=Application
+Categories=Electronics
+Icon=/usr/share/app-install/icons/xilinx-ise-impact.png
+
+
+Name[en_AU]=Xilinx ISE iMPACT

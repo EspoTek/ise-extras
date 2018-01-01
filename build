@@ -1,0 +1,7 @@
+#! /bin/sh
+echo "Building package..."
+dpkg-deb --build debsrc ise-extras.deb
+
+echo
+echo "Installing package..."
+dpkg -i ise-extras.deb

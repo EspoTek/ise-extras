@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Xilinx ISE
+Comment=ISE Design Suite
+Exec=/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/ise
+Terminal=false
+Type=Application
+Categories=Electronics
+Icon=/usr/share/app-install/icons/xilinx-ise.png
+
+
+Name[en_AU]=Xilinx ISE

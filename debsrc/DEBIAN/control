@@ -1,0 +1,7 @@
+Package: ise-extras
+Version: 1.0
+Section: base
+Priority: optional
+Architecture: amd64
+Maintainer: Chris Esposito <admin@espotek.com>
+Description: A couple of things to make Xilinx ISE a bit nicer on Ubuntu.  May also work on other Debian-based systems.
