@@ -2,6 +2,7 @@
 Name=Xilinx ISE
 Comment=ISE Design Suite
 Exec=/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/ise
+MimeType=application/x-xilinxise
 Terminal=false
 Type=Application
 Categories=Electronics
