@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Xilinx ISE
+Name=Xilinx ISE Design Suite
 Comment=ISE Design Suite
 Exec=/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/ise
 MimeType=application/x-xilinxise

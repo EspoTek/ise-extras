@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Xilinx Terminal
+Comment=Loads the environment variables needed for Xilinx ISE.
+Exec=gnome-terminal -e 'bash -c "source /opt/Xilinx/14.7/ISE_DS/settings64.sh;bash"'
+Terminal=true
+Type=Application
+Categories=Electronics
+
+Name[en_AU]=Xilinx Terminal
