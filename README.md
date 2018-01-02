@@ -6,7 +6,7 @@ Please note that only ISE version 14.7 on a 64-bit machine t is supported at the
 
 **Features**
  - Adds shortcuts to the applications menu (with icons!) for the ISE main software, and iMPACT.
- - A "Xilinx Terminal" that loads with all of the Xilinx environment variables activated; for example to run ise_flow.sh.
+ - A "Xilinx Terminal" with Xilinx environment variables activated, for example to run ise_flow.sh.
  - Associates .xise files with the ISE Design Suite.
  - Installs Michael Gernoth's Xilinx USB Platform Cable driver, with modified udev rules so that it's compatible with modern Linux.
  - Modifies your .
