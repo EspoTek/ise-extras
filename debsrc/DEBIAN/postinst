@@ -1,0 +1,7 @@
+#! /bin/bash
+
+echo "Post-install script begin"
+
+echo "Reloading udev"
+udevadm trigger
+udevadm control --reload-rules

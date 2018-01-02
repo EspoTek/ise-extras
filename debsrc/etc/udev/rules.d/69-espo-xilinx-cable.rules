@@ -1,1 +1,0 @@
-ENV{ID_VENDOR_ID}=="03fd", ENV{ID_MODEL_ID}=="000f", SYMLINK="Xilinx_Platform_Cable_USB_DLC9LP", MODE="0666"
