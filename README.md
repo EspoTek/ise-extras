@@ -4,9 +4,9 @@ ise-extras is a little add-on package to Xilinx's ISE software for Linux.
 I've updated it to work well with modern Linux, specifically Ubuntu 16.04.  It should work with other Linux versions too.
 
 **Features**
- - Shortcut in the applications menu (with icon!) for the ISE main software, and iMPACT.
- - Michael Gernoth's Xilinx USB Cable driver, with modified udev rules so that it's compatible with modern Linux.
- - A wrapper around the iMPACT executable that will ensure it always actually uses Michael Gernoth's unofficial driver.
+ - Adds shortcuts to the applications menu (with icons!) for the ISE main software, and iMPACT.
+ - Installs Michael Gernoth's Xilinx USB Platform Cable driver, with modified udev rules so that it's compatible with modern Linux.
+ - Adds a wrapper around the iMPACT executable that will ensure it will load Michael Gernoth's driver and not look for the official (broken) Xilinx software.
 
 **Installation instructions:**
 1) First, install ISE 14.7 from Xilinx's website to **/opt/Xilinx**.  You must install ISE to this exact directory, otherwise ise-extras won't work.
