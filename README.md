@@ -9,7 +9,7 @@ Please note that only ISE version 14.7 on a 64-bit machine t is supported at the
  - Adds a "Xilinx Terminal" with Xilinx environment variables activated, which can run, for example, Coregen's "ise_flow.sh" files.
  - Associates .xise files with the ISE Design Suite.
  - Installs Michael Gernoth's Xilinx USB Platform Cable driver, with modified udev rules so that it's compatible with modern Linux.
- - Modifies your .
+ - Modifies your iMPACT executable to use Michael Gernoth's driver.
 
 **Installation instructions:**
 1) First, install ISE 14.7 from Xilinx's website to **/opt/Xilinx**.  You must install ISE to this exact directory, otherwise ise-extras won't work.
