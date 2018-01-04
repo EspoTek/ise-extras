@@ -1,0 +1,12 @@
+#!/bin/bash
+
+args=$*
+
+which=`which $0`
+mydir=`dirname $which`
+
+. ${mydir}/cs_common.sh
+
+XIL_CS_CLASSPATH="-classpath classes:${XIL_CS_JAR}/chipscope.jar:${XIL_CS_JAR}/jdom.jar:${XIL_CS_JAR}/jbcl.jar:${XIL_CS_JAR}/iText.jar:${XIL_CS_JAR}/jide-common.jar:${XIL_CS_JAR}/jide-charts.jar:${XIL_CS_JAR}/jide-grids.jar"
+
+$XIL_CS_JAVA -Xmx512m -Xss16m ${XIL_CS_JVMARGS} ${XIL_CS_CLASSPATH} com.xilinx.chipscope.analyzer.gui.CSGui "$@"
