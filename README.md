@@ -9,7 +9,7 @@ Please note that only ISE version 14.7 on a 64-bit machine t is supported at the
  - Adds a "Xilinx Terminal" with Xilinx environment variables activated, which can run, for example, Coregen's "ise_flow.sh" files.
  - Associates .xise files with the ISE Design Suite.
  - Installs Michael Gernoth's Xilinx USB Platform Cable driver, with modified udev rules so that it's compatible with modern Linux.
- - Modifies your iMPACT executable to use Michael Gernoth's driver.
+ - Modifies your iMPACT and Chipscope executables to use Michael Gernoth's driver.
  - Fixes bugs that prevents the software from inserting ChipScope instances during the "Implement Design" step. 
 
 **Installation instructions:**
